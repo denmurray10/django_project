@@ -23,7 +23,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-d8k=1vve!2^p_&b-tf(u+ph&^@ewu^2g^$)+pyjiyt2cr2_*g5'
 
 # SECURITY WARNING: Allows for the extended, yellow error messages to be displayed.
-DEBUG = False
+DEBUG = True
 
 # Determines which host or server names the project can run on.
 ALLOWED_HOSTS = ['.herokuapp.com', '127.0.0.1']
